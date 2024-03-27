@@ -1,0 +1,46 @@
+
+
+header,
+body{
+        font-family: "Oswald", sans-serif;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* colocando borda arredondada */ 
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(31, 127, 252);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#mensagem{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
